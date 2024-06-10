@@ -1,15 +1,11 @@
 const http = require('http');
 
-const app = http.createServer();
+const app = http.createServer((req, res) => {
+  res.end('Hello, World!');
+});
 
 const PORT = process.env.PORT || 8000;
 
-app.use((_, _, next) => {
-  next() => {
-    res.end('Hello, World!');
-  };
-});
-
-App.listen(_PORT, () => {
+app.listen(PORT, () => {
   console.log(`Test_cgpt_repo app listening on port ${PORT}`);
 });
