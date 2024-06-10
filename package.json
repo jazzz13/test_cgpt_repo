@@ -7,11 +7,12 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\""
   },
-  "author": "Jazzz13",
+  "author": "jazzz13",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.2",
     "mocha": "^1.28.0",
-    "nodemon": "^14.17.6"
+    "nodemon": "^14.17.6",
+    "typeorm": "^0.3.12"
   }
 }
