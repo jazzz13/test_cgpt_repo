@@ -1,0 +1,17 @@
+{
+  "name": "test_cgpt_repo",
+  "version": "1.0.0",
+  "description": "Simple Node.js Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Jazzz13",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mocha": "^1.28.0",
+    "nodemon": "^14.17.6"
+  }
+}
