@@ -4,7 +4,7 @@
   "description": "Simple Node.js Project",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\""
   },
   "author": "jazzz13",
@@ -12,7 +12,8 @@
   "dependencies": {
     "express": "^4.17.2",
     "mocha": "^1.28.0",
-    "nodemon": "^14.17.6",
-    "typeorm": "^0.3.12"
+    "nodemon": "^2.0.15",
+    "typeorm": "^0.3.12",
+    "sqlite3": "^5.0.2"
   }
 }
